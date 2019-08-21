@@ -1,0 +1,29 @@
+/* **************  CSS DISPLAY FOR CUSTOM MODAL **************************/
+
+	.popup-position{
+		display : none;
+		position : fixed;
+		top : 50px;
+		left: 0;
+		background-color : rgba(0, 0, 0, 0.7);
+		width:100%;
+		height: 100%;
+                z-index: 5000000000000;
+	}
+	#popup-wrapper{
+		width:auto;
+                max-width: 800px;
+		margin :40px auto;
+		text-align: left;
+               
+	}
+	
+	#popup-container{
+		background-color: #fff;
+		padding:20px;
+		border-radius :4px;
+	}
+        .onlyredborder{
+            border:1px solid red;
+        }
+/****************  END OF DISPLAY FOR CUSTOM MODAY   **********************/
